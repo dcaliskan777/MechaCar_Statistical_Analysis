@@ -31,3 +31,32 @@ model
 ```{r}
 summary(model)
 ```
+```{r}
+# import and read Suspension_Coil.csv
+Suspension_Coil_table <-read_csv("resources/Suspension_Coil.csv")
+Suspension_Coil_table
+```
+```{r}
+# Total summary data frame
+total_summary<-Suspension_Coil_table%>%summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups='keep')
+total_summary
+```
+
+
+```{r}
+lot_summary<-Suspension_Coil_table%>%group_by(Manufacturing_Lot)%>%summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups='keep')
+lot_summary
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+

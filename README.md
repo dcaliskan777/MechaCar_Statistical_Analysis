@@ -33,6 +33,18 @@ You can find the complete Rmd file in the following link:
 
 ## Summary Statistics on Suspension Coils
 
+Total Summary statistics of suspension Coils is in the following table:
+
+![](resources/total_summmary.jpg)
+
+And, the summary statistics according to losts is given as
+
+![](lot_summary.jpg)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. So according to total_summary data frame, the current manufacturing data meets this design specification for all manufacturing lots in total because the variance is 62.29. According to lot_summary data frame, he current manufacturing data meets this design specification for all manufacturing lots 1 and 2 but does not meet lot 3; because the varieneces are 0.98, 7.47 and 170.29 respectively. 
+
 ## T-Test on Suspension Coils
+
+
 
 ## Design a Study Comparing the MechaCar to the Competition
